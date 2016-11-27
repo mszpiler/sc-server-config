@@ -1,0 +1,10 @@
+server:
+  port: 8100
+spring:
+  application:
+    name: sc-server-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mszpiler/sc-config-repo.git
