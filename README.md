@@ -1,5 +1,3 @@
 # sc-server-config
 
-## Generate ssh key
-
-ssh-keygen -t rsa -b 4096 -C "<<your email>>"
+Service responsible for serve configuration for others microservices in cloud.
